@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Recipes</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: palevioletred;
+        }
+
+        /* Title */
+        .page-title {
+            text-align: center;
+            font-size: 40px;
+            margin: 20px 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Flex Container */
+        .recipe-container {
+            display: flex;
+            gap: 25px;
+            padding: 25px;
+            overflow-x: auto;
+        }
+
+        /* Card */
+        .card {
+            flex: 0 0 420px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            transition: 0.35s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        /* Image */
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        /* Content */
+        .content {
+            padding: 18px;
+        }
+
+        h2 {
+            margin: 0 0 6px;
+        }
+
+        .rating {
+            color: #f39c12;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-weight: bold;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+
+        /* Lists */
+        ul,
+        ol {
+            margin: 0 0 10px 18px;
+            font-size: 14px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="page-title">MY RECEIPES</h1>
+
+    <div class="recipe-container">
+
+        <!-- DOSA -->
+        <div class="card">
+            <img
+                src="https://png.pngtree.com/png-clipart/20250420/original/pngtree-masala-dosa-with-chutneys-appealing-south-indian-breakfast-png-image_20864088.png">
+            <div class="content">
+                <h2>Dosa</h2>
+                <div class="rating">★★★★★</div>
+                <div class="info">20 min • Serves 2 • 180 cal</div>
+
+                <div class="section-title">Ingredients</div>
+                <ul>
+                    <li>1 cup rice</li>
+                    <li>½ cup urad dal</li>
+                    <li>½ tsp fenugreek seeds</li>
+                    <li>Salt to taste</li>
+                    <li>Oil for cooking</li>
+                </ul>
+
+                <div class="section-title">Instructions</div>
+                <ol>
+                    <li>Soak rice, dal, and fenugreek seeds for 6 hours.</li>
+                    <li>Grind into smooth batter.</li>
+                    <li>Ferment overnight.</li>
+                    <li>Spread batter thinly on hot pan.</li>
+                    <li>Cook until crisp and golden.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- IDLI -->
+        <div class="card">
+            <img
+                src="https://media.istockphoto.com/id/1145169012/photo/many-idli-or-idly-and-coconut-chutney-south-indian-breakfast.jpg?s=612x612&w=0&k=20&c=eaGheWxdd81VAxCdpaBaM9BV4-3601dJ-8gr9yP1B4A=">
+            <div class="content">
+                <h2>Idli</h2>
+                <div class="rating">★★★★★</div>
+                <div class="info">15 min • Serves 3 • 120 cal</div>
+
+                <div class="section-title">Ingredients</div>
+                <ul>
+                    <li>2 cups idli batter</li>
+                    <li>Oil for greasing molds</li>
+                </ul>
+
+                <div class="section-title">Instructions</div>
+                <ol>
+                    <li>Grease idli plates with oil.</li>
+                    <li>Pour batter into molds.</li>
+                    <li>Steam for 12–15 minutes.</li>
+                    <li>Cool slightly and remove.</li>
+                    <li>Serve with chutney or sambar.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- BIRYANI -->
+        <div class="card">
+            <img
+                src="https://img.freepik.com/premium-photo/plate-food-with-noodles-meat-vegetables_1197144-525.jpg?semt=ais_user_personalization&w=740&q=80">
+            <div class="content">
+                <h2>Hyderabadi Biryani</h2>
+                <div class="rating">★★★★★</div>
+                <div class="info">45 min • Serves 4 • 420 cal</div>
+
+                <div class="section-title">Ingredients</div>
+                <ul>
+                    <li>2 cups basmati rice</li>
+                    <li>500 g chicken</li>
+                    <li>1 cup yogurt</li>
+                    <li>Fried onions</li>
+                    <li>Biryani spices</li>
+                </ul>
+
+                <div class="section-title">Instructions</div>
+                <ol>
+                    <li>Marinate chicken with yogurt and spices.</li>
+                    <li>Cook rice until 70% done.</li>
+                    <li>Layer rice and chicken in pot.</li>
+                    <li>Seal and cook on low heat (dum).</li>
+                    <li>Garnish and serve hot.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- UPMA -->
+        <div class="card">
+            <img
+                src="https://thumbs.dreamstime.com/b/upma-uppumavu-uppittu-dish-indian-subcontinent-most-common-south-maharashtrian-sri-lankan-tamil-breakfast-119700026.jpg">
+            <div class="content">
+                <h2>Upma</h2>
+                <div class="rating">★★★★☆</div>
+                <div class="info">20 min • Serves 2 • 250 cal</div>
+
+                <div class="section-title">Ingredients</div>
+                <ul>
+                    <li>1 cup rava (semolina)</li>
+                    <li>1 onion (chopped)</li>
+                    <li>Mixed vegetables</li>
+                    <li>Mustard seeds & curry leaves</li>
+                    <li>2 cups water</li>
+                </ul>
+
+                <div class="section-title">Instructions</div>
+                <ol>
+                    <li>Dry roast rava and keep aside.</li>
+                    <li>Prepare tempering with mustard seeds.</li>
+                    <li>Add onions and vegetables.</li>
+                    <li>Add water and bring to boil.</li>
+                    <li>Stir in rava and cook till fluffy.</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
